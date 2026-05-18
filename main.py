@@ -2,8 +2,7 @@ import requests
 import urls
 from pprint import pprint
 
-url = urls.Essence
-
+url = urls.Currency
 
 response = requests.get(url)
 response.raise_for_status()  # Check if the request was successful
