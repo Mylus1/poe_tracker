@@ -1,5 +1,5 @@
 import requests
-import urls
+import poe_tracker.poe_tracker.urls as urls
 from pprint import pprint
 
 url = urls.Currency
